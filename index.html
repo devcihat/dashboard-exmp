@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn3.devexpress.com/jslib/20.1.7/css/dx.common.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <title>Dashboard</title>
+</head>
+
+<body class="dx-viewport">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-light">
+    <button class="navbar-toggler ml-auto mb-2 bg-light" type="button" data-toggle="collapse" data-target="#myNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Sidebar -->
+          <div class="col-lg-3 sidebar fixed-top">
+            <a href="#" class="navbar-brand text-white d-block mx-auto text-center  py-3 mb-4 bottom-border">LOGO</a>
+
+            <div class="input-group md-form form-sm form-1 pl-0 ">
+              <div class="input-group-prepend">
+                <span class="input-group-text purple lighten-3" id="basic-text1"><i class="fas fa-search text-white"
+                    aria-hidden="true"></i></span>
+              </div>
+              <input class="form-control my-0 py-1" type="text" placeholder="Quick Menu Search..." aria-label="Search">
+            </div>
+            <ul class="navbar-nav flex-column mt-4">
+              <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 sidebar-link"><i
+                    class="fas fa-home fa-lg  mr-3"></i>Offers</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 sidebar-link"><i
+                    class="fas fa-home fa-lg  mr-3"></i>Bookings</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 sidebar-link"><i
+                    class="fas fa-home fa-lg  mr-3"></i>Rentals</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 sidebar-link"><i
+                    class="fas fa-home fa-lg  mr-3"></i>Rates / Polices</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 sidebar-link"><i
+                    class="fas fa-home fa-lg  mr-3"></i>Customers</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 sidebar-link"><i
+                    class="fas fa-home fa-lg  mr-3"></i>Financials</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 sidebar-link"><i
+                    class="fas fa-home fa-lg  mr-3"></i>Fleet</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 sidebar-link"><i
+                    class="fas fa-home fa-lg  mr-3"></i>Company</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 sidebar-link"><i
+                    class="fas fa-home fa-lg  mr-3"></i>Reports</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 sidebar-link"><i
+                    class="fas fa-home fa-lg  mr-3"></i>Settings</a></li>
+            </ul>
+          </div>
+
+          <!--Top Nav-->
+          <div class="col-lg-9 ml-auto bg-light fixed-top py-4">
+            <div class="row">
+              <div class="col-md-4">
+                <i class="fas fa-home fa-lg ml-3 nav-clr"></i>
+                <i class="fas fa-home fa-lg ml-3 f-left pt-3 sidebar-top  "></i>
+
+              </div>
+              <div class="col-md-5">
+                <form>
+                  <div class="input-group">
+                    <button type="button" class="btn btn-white"><i class="fas fa-search text-white"></i></button>
+                    <input type="text" class="form-control" placeholder="Search.." />
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-3">
+                <ul class="navbar-nav">
+                  <li class="nav-item ml-4"><a href="#" class="nav-link"><i class="far fa-bell fa-lg bg-green"
+                        aria-hidden="true"></i></a></li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Of Navbar -->
+  <section>
+    <div class="container-fluid bg-clr">
+      <div class="row">
+        <div class="col-lg-9 ml-auto">
+          <div class="row pt-5 mt-3 mb-5">
+            <div class="col-sm-6 p-2">
+              <div class="card-body p-text">
+                <p class="header-ct"><b>#RT2553</b> nolu tarife detayı</p>
+                <div class="navbar">
+                  <ul class="navbar-nav nav-item nav-modal">
+                    <li class="nav-item text-cs"><a href="#" class="nav-link p-3 mb-2 cs-main cs-green">Temel
+                        Bilgileri</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 cs-main ">Araç Tarifeleri</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link p-3 mb-2 cs-main ">Dahili Ek Hizmetler</a></li>
+                  </ul>
+                </div>
+                <div class="dx-viewport demo-container">
+                 <div id="chart-demo">
+                      <table class="demo-table">
+                          <tr>
+                              <th></th>
+                              <th>Oil (USD/barrel)</th>
+                              <th>Gold (USD/troy ounce)</th>
+                              <th>Silver (USD/troy ounce)</th>
+                          </tr>
+                          <tr>
+                              <th>2010</th>
+                              <td><div class="sparkline line2010"></div></td>
+                              <td><div class="sparkline spline2010"></div></td>
+                              <td><div class="sparkline stepline2010"></div></td>
+                          </tr>
+                          <tr>
+                              <th>2011</th>
+                              <td><div class="sparkline line2011"></div></td>
+                              <td><div class="sparkline spline2011"></div></td>
+                              <td><div class="sparkline stepline2011"></div></td>
+                          </tr>
+                          <tr>
+                              <th>2012</th>
+                              <td><div class="sparkline line2012"></div></td>
+                              <td><div class="sparkline spline2012"></div></td>
+                              <td><div class="sparkline stepline2012"></div></td>
+                          </tr>
+                      </table>
+                  </div>
+                 
+              </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="dx-viewport demo-container demo-main">
+            <div id="chart"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <script src="https://cdn3.devexpress.com/jslib/20.1.7/js/dx.all.js"></script>
+  <script src="https://cdn3.devexpress.com/jslib/20.1.7/js/dx.viz.js"></script>
+  <script src="https://cdn3.devexpress.com/jslib/20.1.7/js/dx.web.js"></script>
+  <script src="https://cdn3.devexpress.com/jslib/20.1.7/js/dx.viz-web.js"></script>
+  <script src="https://cdn3.devexpress.com/jslib/20.1.7/js/dx.aspnet.mvc.js"></script>
+  <script src="https://cdn3.devexpress.com/jslib/20.1.7/js/dx-diagram.min.js"></script>
+  <script src="https://cdn3.devexpress.com/jslib/20.1.7/js/dx-gantt.min.js"></script>
+  
+</body>
+
+</html>
